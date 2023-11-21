@@ -1,0 +1,53 @@
+h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+h2 {
+  color: blueviolet;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+#container {
+  height: 755px;
+}
+
+#container table {
+  width: 761px;
+  position: absolute;
+  top: auto;
+  left: 50%;
+  transform: translateX(-50%);
+  border-collapse: collapse;
+}
+
+td {
+  width: 250px;
+  height: 250px;
+  border: 5px solid;
+}
+
+#l1_1,
+#l2_1,
+#l3_1 {
+  border-left: 0;
+}
+
+#l1_3,
+#l2_3,
+#l3_3 {
+  border-right: 0;
+}
+
+#l1_1,
+#l1_2,
+#l1_3 {
+  border-top: 0;
+}
+
+#l3_1,
+#l3_2,
+#l3_3 {
+  border-bottom: 0;
+}
